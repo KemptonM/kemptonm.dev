@@ -1,0 +1,25 @@
+body {
+    background-color: #1A1A1D;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: #C3073F
+}
+h2 {
+    color: white
+}
+h3 {
+    color: #950740
+}
+p {
+    color: white
+}
+ul {
+    color: white
+}
+a:link {
+    color: #950740
+}
+a:visited {
+    color: #6F2232
+}
