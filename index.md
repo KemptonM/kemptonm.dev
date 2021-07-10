@@ -1,15 +1,15 @@
-title: [Hi, I'm Kempton.]
+I'm studying computer science at the University of Maine. I have a passion for programming, software development, and cybersecurity. In my free time, I read books and code.
+## Experience
+### SPICE (UMaine) - Student Research Assistant
 
-# Hi, I'm Kempton
-## Header 2
-### Header 3
+- Built a cloud-based SIEM system and streamlined security analysis to be used in university education
+- Utilized automated deployment to configure agents on X hosts in production
+- Technologies used: AWS, VMWare, Ansible, Wazuh, GitHub
 
-- Bulleted
-- List
+### SPICE (UMaine) - Student Research Assistant
+- Met twice a week to learn and teach others about cybersecurity fundamentals
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Skills
+- Python
+- AWS
+- VMware
