@@ -1,4 +1,4 @@
-Syntax highlighted code block
+title: [Hi, I'm Kempton.]
 
 # Hi, I'm Kempton
 ## Header 2
