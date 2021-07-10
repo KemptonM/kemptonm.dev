@@ -1,10 +1,9 @@
-I have a passion for programming, software development, and cybersecurity. In my free time, I read books and code.
+I have a passion for programming, software development, and cybersecurity. In my free time, I read books and code.  
 I'm currently seeking internship opportunities! If you think I'd be a good fit, please reach out at [kempton.maillett@maine.edu](mailto:kempton.maillett@maine.edu)
 ## Experience
-### SPICE - Student Research Assistant (University of Maine)
-#### Scalable and Portable Infrastructure for Cybersecurity Education
+### SPICE - Student Research Assistant (UMaine)
 - Built a cloud-based SIEM system and streamlined security analysis to be used in university education
-- Utilized automated deployment to configure agents on X hosts in production
+- Utilized automated deployment to install agents on X hosts in production
 - Technologies used: AWS, VMWare, Ansible, Wazuh, GitHub
 
 ### University of Maine Cybersecurity Team
