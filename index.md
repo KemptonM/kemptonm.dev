@@ -4,7 +4,7 @@ I'm currently seeking internship opportunities! If you think I'd be a good fit, 
 ### SPICE - Student Research Assistant (UMaine)
 - Built a cloud-based SIEM system and streamlined security analysis to be used in university education
 - Utilized automated deployment to install agents on X hosts in production
-- Technologies used: AWS, VMWare, Ansible, Wazuh, GitHub
+- Technologies used: AWS, Ansible, Wazuh, GitHub
 
 ### University of Maine Cybersecurity Team
 - Met twice a week to learn and teach others about cybersecurity fundamentals
