@@ -21,7 +21,7 @@ I'm currently seeking internship opportunities! If you think I'd be a good fit, 
 - Added ten new members to the current competing roster
 
 ## Projects
-### [This site!](https://github.com/KemptonM/KemptonM.github.io)
+### This site - [GitHub Repo](https://github.com/KemptonM/KemptonM.github.io)
 - Built a personal website using HTML and a CSS template
 - Hosted the site through GitHub with changes automatically going live
 ## Technical Skills
@@ -29,6 +29,3 @@ I'm currently seeking internship opportunities! If you think I'd be a good fit, 
 **Operating Systems**: Windows, MAC OS, and Linux
 **Technologies**: AWS, Ansible, VMWare, Git
 **Interests**: Software engineering, Cybersecurity, AI
-- Python
-- AWS
-- VMware
