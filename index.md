@@ -2,19 +2,33 @@ I have a passion for programming, software development, and cybersecurity. In my
 I'm currently seeking internship opportunities! If you think I'd be a good fit, please reach out at [kempton.maillett@maine.edu](mailto:kempton.maillett@maine.edu)
 ## Experience
 ### SPICE - Student Research Assistant (UMaine)
-- Built a cloud-based SIEM system and streamlined security analysis to be used in university education
-- Utilized automated deployment to install agents on X hosts in production
-- Technologies used: AWS, Ansible, Wazuh, GitHub
+- Assembled and installed centralized logging and monitoring systems on Linux and Windows servers
+- Streamlined SIEM system deployment by utilizing automation technologies like Ansible and Terraform
+- Utilized Git for software version control, bug fixing, and group collaboration
+- Operated through AWS to create and maintain cloud-based logging hosts
+- Organized documentation to prioritize group needs
 
+### University of Maine - Student Tutor
+- Organized two groups of five students and facilitated group communications
+- Adjusted student's schedules for maximum productivity
+- Worked closely with students to address individual challanges and subsequent solutions
+
+## Leadership & Activities
 ### University of Maine Cybersecurity Team
-- Met twice a week to learn and teach others about cybersecurity fundamentals
-
-## Skills
-- Python
-- AWS
-- VMware
+- Spearheaded team recruitment efforts
+- Achieved record growth in new members
+- Admitted a total of 45+ new recruits
+- Added ten new members to the current competing roster
 
 ## Projects
 ### [This site!](https://github.com/KemptonM/KemptonM.github.io)
-- Learned Markdown/HTML/CSS to build a personal portfolio site
-- Hosted using GitHub Pages
+- Built a personal website using HTML and a CSS template
+- Hosted the site through GitHub with changes automatically going live
+## Technical Skills
+**Programming**: Python, Java, C, HTML
+**Operating Systems**: Windows, MAC OS, and Linux
+**Technologies**: AWS, Ansible, VMWare, Git
+**Interests**: Software engineering, Cybersecurity, AI
+- Python
+- AWS
+- VMware
