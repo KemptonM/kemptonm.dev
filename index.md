@@ -24,6 +24,7 @@ I'm currently seeking internship opportunities! If you think I'd be a good fit, 
 ### This site - [GitHub Repo](https://github.com/KemptonM/KemptonM.github.io)
 - Built a personal website using HTML and a CSS template
 - Hosted the site through GitHub with changes automatically going live
+
 ## Technical Skills
 - **Programming**: Python, Java, C, HTML
 - **Operating Systems**: Windows, MAC OS, and Linux
