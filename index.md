@@ -21,9 +21,10 @@ I'm currently seeking internship opportunities! If you think I'd be a good fit, 
 - Added ten new members to the current competing roster
 
 ## Projects
-### This site - [GitHub Repo](https://github.com/KemptonM/KemptonM.github.io)
+### This site
 - Built a personal website using HTML and a CSS template
 - Hosted the site through GitHub with changes automatically going live
+- [GitHub Repo](https://github.com/KemptonM/KemptonM.github.io)
 
 ## Technical Skills
 - **Programming**: Python, Java, C, HTML
