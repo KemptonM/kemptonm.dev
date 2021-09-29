@@ -26,6 +26,12 @@ I'm currently seeking internship opportunities! If you think I'd be a good fit, 
 - Hosted the site through GitHub with changes automatically going live
 - [GitHub Repo](https://github.com/KemptonM/KemptonM.github.io)
 
+### Terrain elevation generator
+- Python project
+- Used recursion and parallel matricies to simulate terrain and waterflow
+- Used an rgb gradient dependent on varying height values
+- [GitHub Repo](https://github.com/KemptonM/Terrain-Generator)
+
 ## Technical Skills
 - **Programming**: Python, Java, C, HTML
 - **Operating Systems**: Windows, MAC OS, and Linux
