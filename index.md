@@ -20,6 +20,13 @@ I'm currently seeking internship opportunities! If you think I'd be a good fit, 
 - Admitted a total of 45+ new recruits
 - Added ten new members to the current competing roster
 
+### Hivestorm Cybersecurity Competition
+- Appointed captain by team advisor
+- Organized a team of three 
+
+### Northeast Collegiate Cyber Defense Competition
+Application Security Division Lead
+
 ## Projects
 ### This site
 - Built a personal website using HTML and a CSS template
