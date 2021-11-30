@@ -40,7 +40,7 @@ Application Security Division Lead
 - [GitHub Repo](https://github.com/KemptonM/Terrain-Generator)
 
 ## Technical Skills
-- **Programming**: Python, Java, C, HTML
-- **Operating Systems**: Windows, MAC OS, and Linux
-- **Technologies**: AWS, Ansible, VMWare, Git
-- **Interests**: Software engineering, Cybersecurity, AI
+- **Proficient**: Python, Linux, MAC OS, Git
+- **Intermediate**: Java, C, HTML, Windows, PowerShell, AWS, Ansible
+- **Beginner**: Ansible, VMware
+- **Interests**: Software development, Cybersecurity, AI
