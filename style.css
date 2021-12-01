@@ -1,25 +1,23 @@
+
+
 body {
-    background-color: #1A1A1D;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e2d3c4
+}
+head {
+    background-color: #998a7d;
 }
 h1 {
-    color: #C3073F
-}
+    color: #35312f;
+    text-align: center;
+  }
+ 
 h2 {
-    color: white
-}
-h3 {
-    color: #950740
-}
-p {
-    color: white
-}
-ul {
-    color: white
+    color: #35312f;
+    text-align: center;
 }
 a:link {
-    color: #950740
+    color: #c48538;
 }
 a:visited {
-    color: #6F2232
+    color: #a4413a;
 }
