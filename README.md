@@ -1,3 +1,3 @@
 ## kemptonm.me
 
-This is a templated website I'm hosting through GitHub pages, which allows me to make changes through markdown.
+This is a personal portfolio site that I made with HTML and CSS.
