@@ -1,11 +1,10 @@
 .row {
     display: flex;
-  }
-  
-  .column {
+}
+.column {
     flex: 33.33%;
     padding: 5px;
-  }
+}
 
 body {
     background-color: #e2d3c4
@@ -17,7 +16,6 @@ h1 {
     color: #35312f;
     text-align: center;
   }
- 
 h2 {
     color: #35312f;
     text-align: center;
