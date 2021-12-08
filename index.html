@@ -11,14 +11,17 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-keyboard-o,.fa-archive,.fa-user-o {font-size:200px}
+.fa-github,.fa-linkedin {font-size:50px}
 
 .row {
-  display: flex;
-}
+  display: flex;}
 .column {
   flex: 33.33%;
-  padding: 2px;
-}
+  padding: 2px;}
+#Pictures {
+  padding-left: 384px;
+  padding-right: 384px;}
+
 </style>
 <body>
 
@@ -105,35 +108,36 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <h3>Terrain map generator</h3>
       <a href="https://github.com/KemptonM/Terrain-Generator"><h5>GitHub Repo</h5></a>
       <h5 class="w3-padding-32">For a Python programming course at UMaine, we were given a Python file that would generate a matrix which contained related elevation values in each cell. I used tkinter to generate a terrain overlay based on those given elevation values. I implemented an ocean level, a gradient grass color, rivers that flow recursively downhill, and beaches where grass and ocean meet.</h5>
-      <div class="row">
-        <div class="column">
-          <img src="terrain_pics/Green 2.png" alt="screenshot of terrain" style="width:100%">
-        </div>
-        <div class="column">
-          <img src="terrain_pics/blue.png" alt="screenshot of terrain" style="width:100%">
-        </div>
-        <div class="column">
-        <img src="terrain_pics/Green with thin beach.png" alt="screenshot of terrain" style="width:100%">
-        </div>
-      </div>
     </div>
   </div>
   <div class="w3-third w3-center">
       <i class="fa fa-archive w3-padding-64 w3-text-blue"></i>
   </div>
-  
+  <div class="w3-row" id="Pictures">
+    <div class="row">
+      <div class="column">
+        <img src="terrain_pics/Green 2.png" alt="screenshot of terrain" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="terrain_pics/blue.png" alt="screenshot of terrain" style="width:100%">
+      </div>
+      <div class="column">
+      <img src="terrain_pics/Green with thin beach.png" alt="screenshot of terrain" style="width:100%">
+      </div>
+    </div>
+  </div>
 </div>
 
 
 
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge"><a href="mailto:kempton.maillett@maine.edu">kempton.maillett@maine.edu</a></h1>
+    <h6 class="w3-margin w3-xlarge"><a href="mailto:kempton.maillett@maine.edu">kempton.maillett@maine.edu</a></h1>
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity" id="Footer">  
-  <div class="w3-xlarge w3-padding-32">
+<footer class="w3-container w3-padding-16 w3-center w3-opacity" id="Footer">  
+  <div class="w3-xlarge">
     <a href="https://github.com/KemptonM"><i class="fa fa-github w3-hover-opacity"></i></a> 
     <a href="https://www.linkedin.com/in/kempton-maillett-256bb8216/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
  </div>
