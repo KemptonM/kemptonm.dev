@@ -1,207 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-<title>Kempton</title>
-<link rel="icon" href="media/icon.png" type="image/icon type">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-keyboard-o,.fa-archive,.fa-user-o {font-size:200px}
-.fa-github,.fa-linkedin {font-size:50px}
+<html>
+    <link rel="stylesheet" href="style.css">
+    <title>KemptonM</title>
+    <head>
+        <h1>Hi, I'm Kempton.</h1>
+        <p>
+            I have a passion for programming, software development, and cybersecurity. In my free time, I read books and code.<br>I'm currently seeking internship opportunities in software engineering! If you think I'd be a good fit, please reach out at <a href="mailto:kempton.maillett@maine.edu">kempton.maillett@maine.edu</a>.
+        </p>
+    </head>
+    <body>
+        <h2>Experience</h2>
+        <h3>University of Maine - Student Research Assistant</h3>
+        <p>
+            I contributed to the Scalable and Portable Infrastructure for Cybersecurity Education 
+            project (SPICE). SPICE is a flexible, remotely accessible infrastructure that 
+            leverages public cloud, data center, and portable computing resources. 
+            It was developed to support a variety of cybersecurity education activities. 
+            You can read more about the project <a href="https://umcst.maine.edu/spice.html">here.</a>
+        </p>
+        <h4>Logging & monitoring</h4>
+        <p>
+            I worked closely with groupmates to implement centralized logging and monitoring 
+            systems on SPICE infrastructure. For scalability, we used AWS to host virtual 
+            machines running Wazuh, Elastic Stack, and Kibana for a web interface that displays 
+            all kinds of logging/monitoring info. Finally, we wrote Ansible playbooks to automate 
+            agent deployment.
+        </p>
+        <h4>Orginizational efforts</h4>
+        <p>
+            We met weekly over the 2021 summer to coordinate as a team, communicate 
+            progress/challenges, and delegate different tasks. I primarily took notes during these 
+            meetings and made clear the most urgent action items in our documentation.
+        </p>
+        <!--<h3>University of Maine - Student Tutor</h3>
+        <p>I tutored two groups of five students in college level pre-calculus, organized meetings and facilitated group discussions.</p>-->
 
-.row {
-  display: flex;}
-.column {
-  flex: 33.33%;
-  padding: 2px;}
-#Pictures {
-  padding-left: 384px;
-  padding-right: 384px;}
-#Socials {
-  display: inline-flex;
-  column-gap: 20px;
-  justify-content: space-between;
-}
+        <h2>Extracurricular</h2>
+        <h3>University of Maine Cybersecurity Team</h3>
+        <p>
+            I joined UMCST in the spring of 2021. That summer, I got involved with the SPICE project to contribute to the team's infrastructure. Recently, I was elected Student Relations Officer and captained a team of three in the Hivestorm cybersecurity competition. I'm excited to lead our team's application security division for the 2022 Northeast Collegiate Cyber Defense Competition (NECCDC). You can read more about UMCST <a href="https://umcst.maine.edu/">here.</a>
+        </p>
+        <h4>Recruitment efforts</h4>
+        <p>
+            This 2021 fall semester our team saw record growth and attendance at our weekly introductory labs. We're looking forward to sending a full roster to NECCDC 2022!
+        </p>
 
-</style>
-<body>
-
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="#Experience" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Experience</a>
-    <a href="#Extracurricular" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Extracurricular</a>
-    <a href="#Projects" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Projects</a>
-    <a href="#Footer" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact Info</a>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#Experience" class="w3-bar-item w3-button w3-padding-large">Experience</a>
-    <a href="#Extracurricular" class="w3-bar-item w3-button w3-padding-large">Extracurricular</a>
-    <a href="#Projects" class="w3-bar-item w3-button w3-padding-large">Projects</a>
-    <a href="#Footer" class="w3-bar-item w3-button w3-padding-large">Contact Info</a>
-  </div>
-</div>
-
-<!-- Header -->
-<header class="w3-container w3-blue w3-center" style="padding:85px 16px">
-  <h1 class="w3-margin w3-jumbo">Hi, I'm Kempton.</h1>
-  <p class="w3-xlarge">I develop software.</p>
-  <!-- <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> -->
-</header>
-
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container" id="Experience">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>Professional Experience</h2>
-      <h2>Nuance + Microsoft (Burlington, MA)</h2>
-      <h3>Software Engineering Intern</h3>
-      <h5 class="w3-padding-32">I worked closely with a team of engineers and contributed to the development of Microsoft's Nuance Contact Center AI with JDK 11. </h5>
-      <p class="w3-text-grey"><ul>
-        <li>Contributed to the development of Microsoft's Nuance Contact Center AI with JDK11.</li>
-        <li>Increased project code coverage by 15% with JUnit tests and Maven build automation tools.</li>
-        <li>Improved database scalability, compatibility, and call time using PostgreSQL and Protobuf.</li>
-        <li>Streamlined user interactions with Contact Center AI by analyzing digital engagement data.</li>
-        <li>Updated onboarding documentation and guides while setting up developer environment.</li>
-        <li>Followed Agile principles to maintain team collaboration on tickets through sprints.</li>
-      </ul></h6>
-      <p class="w3-text-grey">JDK11, Microsoft Azure, Maven, JUnit, PostgreSQL, Protobuf</p>
-
-      <h2>University of Maine</h1>
-      <h3>Student Research Assistant</h3>
-      <h5 class="w3-padding-32">I contributed to the Scalable and Portable Infrastructure for Cybersecurity Education project (SPICE). SPICE is a flexible, remotely accessible infrastructure that leverages public cloud, data center, and portable computing resources. It was developed to support a variety of cybersecurity education activities. You can read more about the project <a href="https://umcst.maine.edu/spice.html">here.</a></h5>
-      <h6>Logging & monitoring</h6>
-      <p class="w3-text-grey">I worked independently and closely with groupmates to implement centralized logging and monitoring systems on SPICE infrastructure. For scalability, we used AWS to host three EC2 instances running Wazuh, Elastic Stack, and Kibana in a cluster. We configured a dashboard with Kibana to visualize SIEM information. Finally, we wrote Ansible playbooks to automate deployment on servers hosted across campus and elsewhere in the cloud.</p>
-      <h6>Organizational efforts</h6>
-      <p class="w3-text-grey">Met weekly over the summer to coordinate as a team, communicate 
-        progress/challenges, and delegate different tasks. I primarily took notes during these 
-        meetings and made clear the most urgent action items in our documentation.</p>
-      <p class="w3-text-grey"><ul>
-        <li>Implemented logging and monitoring software across campus with a 20% decrease in security incidents.</li>
-        <li>Automated deployment to over 30 agents across university infrastructure using Ansible and Terraform.</li>
-        <li>Configured secure firewalls to facilitate communication between cloud and campus networks.</li>
-        <li>Hosted a swarm of scalable and redundant cloud-based instances using AWS EC2 instances.</li>
-        <li>Configured local networks and infrastructure for simulated cybersecurity training labs.</li>
-        <li>Administered weekly lab sessions to 40+ recruits on topics like network configuration and ethical hacking.</li>
-        <li>Utilized Git for software version control and agile development with a small team of researchers.</li>
-        <li>Managed a project wiki and hosted training sessions and new feature demonstrations.</li>
-        <li>Implemented a dashboard on all configured agents resulting in >90% improved threat detection.</li>
-        <li>Handled vital communications between the research team and non-technical University faculty.</li>
-      </ul></p>
-    </div>
-
-    <div class="w3-third w3-center">
-      <i class="fa fa-keyboard-o w3-padding-64 w3-text-blue"></i>
-    </div>
-  </div>
-</div>
-
-<!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="Extracurricular">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <i class="fa fa-user-o w3-padding-64 w3-text-blue w3-margin-right"></i>
-    </div>
-
-    <div class="w3-twothird">
-      <h1>Extracurricular</h1>
-      <h2>University of Maine Cybersecurity Team</h2>
-      <h3>Student Relations Officer</h3>
-      <h5 class="w3-padding-32">The year I joined UMCST, I got involved with the SPICE project to contribute to the team's infrastructure. Next, I was elected Student Relations Officer and captained a team of three in the Hivestorm cybersecurity competition. You can read more about UMCST <a href="https://umcst.maine.edu/">here.</a></h5>
-
-      <h6>Recruitment efforts</h6>
-      <p class="w3-text-grey">During my first year as an SRO, UMCST saw massive growth, even in the midst of the COVID shutdown. We had record attendance at our weekly labs which are built and maintained by team members, designed to help new recruits delve into the world of cybersecurity. UMCST sent a full team composed mostly of new recruits to NECCDC 2022 and placed third!
-      <h6>Hivestorm Cybersecurity Competition</h6>
-      <p class="w3-text-grey">My first cybersecurity competition, and also my first time captaining!</p>
-      <p class="w3-text-grey"><ul>
-        <li>Developed and maintained labs in Linux administration, network reconnaissance, and ethical hacking.</li>
-        <li>Captained a team of 4 in the 2021 Hivestorm cyber defense competition.</li>
-        <li>Configured isolated networks of virtual machines to simulate competition environments.</li>
-        <li>Developed team website and streamlined the deployment cycle using webhooks and custom build scripts.</li>
-        <li>Presented environment setup guides in weekly meetings to dozens of recruits and members.</li>
-        <li>Spearheaded team recruitment efforts and admitted a record total of 45+ new recruits.</li>
-      </ul></p>
-      </a></p>
-    </div>
-  </div>
-</div>
-
-<!-- First Grid #2-->
-<div class="w3-row-padding w3-padding-64 w3-container" id="Projects">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>Projects/Skills</h2>
-      <h4>Languages</h3>
-      <p>Java, Python (2.7/3), C, React, JavaScript</p>
-      <h4>Software/Technologies</h3>
-      <p>Git, Linux/WSL, Windows, Maven, Ansible, Terraform, Docker, SQL, Jenkins</p>
-      <h3>KemptonM.me</h3>
-      <a href="https://github.com/KemptonM/KemptonM.github.io"><h5>GitHub</h5></a>
-      <h5 class="w3-padding-32">My humble portfolio website.</a></h5>
-  
-      <h3>Terrain map generator</h3>
-      <a href="https://github.com/KemptonM/Terrain-Generator"><h5>GitHub</h5></a>
-      <h5 class="w3-padding-32">For a Python programming course at UMaine, we were given a Python program that would generate a matrix containing different elevation values resembling a topography map. I used tkinter to generate a terrain overlay based on those given elevation values. I implemented an ocean level, a gradient grass color, rivers that flow recursively downhill, and beaches where grass and ocean meet.</h5>
-    
-      <h3>Scrabble</h3>
-      <a href="https://github.com/KemptonM/Scrabble"><h5>GitHub</h5></a>
-      <h5 class="w3-padding-32">This is a simple CLI-based game of scrabble written in Python.</h5>
-  </div>
-  </div>
-  <div class="w3-third w3-center">
-      <i class="fa fa-archive w3-padding-64 w3-text-blue"></i>
-  </div>
-  <!-- Terrain generator pictures -->
-  <div class="w3-row" id="Pictures">
-    <div class="row">
-      <div class="column">
-        <img src="media/terrain_pics/Green 2.png" alt="screenshot of terrain" style="width:100%">
-      </div>
-      <div class="column">
-        <img src="media/terrain_pics/Blue.png" alt="screenshot of terrain" style="width:100%">
-      </div>
-      <div class="column">
-      <img src="media/terrain_pics/Green with thin beach.png" alt="screenshot of terrain" style="width:100%">
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h6 class="w3-margin w3-xlarge"><a href="mailto:kempton.maillett@gmail.com">kempton.maillett@gmail.com</a></h1>
-</div>
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-16 w3-center w3-opacity" id="Footer">  
-  <div class="w3-xlarge" id="Socials">
-    <a href="https://github.com/KemptonM"><i class="fa fa-github w3-hover-opacity"></i></a> 
-    <a href="https://www.linkedin.com/in/kempton-maillett/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
- </div>
-</footer>
-
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
-
-</body>
+        <h2>Projects</h2>
+        <h3><a href="https://github.com/KemptonM/KemptonM.github.io">This site</a></h3>
+        <p>With HTML and CSS, I built this personal portfolio site to document my professional experience, software projects, and extracurricular activities. This site is hosted via GitHub pages, and changes automatically go live as I push with git.</p>
+        <h3><a href="https://github.com/KemptonM/Terrain-Generator">Terrain map generator</a></h3>
+        <p>
+            For a Python programming course at UMaine, we were given a Python file that would generate a matrix which contained related elevation values in each cell. I used tkinter to generate a terrain overlay based on those given elevation values. I implemented an ocean level, a gradient grass color, rivers that flow recursively downhill, and beaches where grass and ocean meet.
+        </p>
+        <div class="row">
+            <div class="column">
+              <img src="terrain_pics/Green 2.png" alt="screenshot of terrain" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="terrain_pics/Red.png" alt="screenshot of terrain" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="terrain_pics/Green with thin beach.png" alt="screenshot of terrain" style="width:100%">
+            </div>
+          </div>
+       
+    </body>
 </html>
+
+<!--
+
+## Projects
+
+
+## Technical Skills
+- **Proficient**: Python, Linux, MAC OS, Git
+- **Intermediate**: Java, C, HTML, Windows, PowerShell, AWS, Ansible
+- **Beginner**: Ansible, VMware
+- **Interests**: Software development, Cybersecurity, AI
+-->
