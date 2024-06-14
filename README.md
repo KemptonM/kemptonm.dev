@@ -1,2 +1,2 @@
 ## kemptonm.me
-Personal portfolio site that I made with HTML and CSS
+Personal portfolio site that I made with some simple HTML and CSS
